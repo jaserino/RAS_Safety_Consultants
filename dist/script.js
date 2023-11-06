@@ -41,3 +41,11 @@ const typewriter = () => {
 };
 
 typewriter();
+
+// burger menu
+var burger = document.getElementById('burger-menu');
+var menu = document.getElementById('menu');
+
+burger.addEventListener('click', () => {
+  menu.classList.toggle('hidden');
+});
