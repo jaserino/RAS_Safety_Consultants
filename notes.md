@@ -1,9 +1,21 @@
-website sections
+TODO \*\*
 
-Home
+#FFA800
+#FF6600
 
-About
+- need descriptions of each class offered
+- testimonial clarification, exact qoutes needed.
+- add icons to nav
 
-Testimonials
+Osha10 & Osha30
+MEWP Lift Training
+HAZWOPER Training
+NYC SST
+Scaffolding Training
+Confined Space Training
 
-Consultations
+Workplace safety training
+
+OSHA training
+NYCDOB SST training
+Workplace Safety Consulting and Training
