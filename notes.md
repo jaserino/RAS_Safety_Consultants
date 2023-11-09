@@ -19,3 +19,17 @@ Workplace safety training
 OSHA training
 NYCDOB SST training
 Workplace Safety Consulting and Training
+
+testimonials
+Over 500 classes ...
+
+Hector vallejo MIC Inc Queens Inc
+
+Mario Cuenca Queens Ny - SST
+
+Paul Kaulkarst - osha10 + lift training
+
+james lavalle - Elizabeth NJ "Ras Safety
+
+Brian carrol - hyde park NY Osha10 24guystrained
+"RAS Safety continously assists on the project with site safety training for the workers"
