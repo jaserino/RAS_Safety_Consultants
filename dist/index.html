@@ -277,7 +277,7 @@
         <div>
           <h3 class="mt-5 text-2xl font-semibold text-center mb-8 sm:text-5xl sm:mt-0"><span class="font-semibold text-[#FFA800]">Online</span> and <span class="font-semibold text-[#FFA800]">In-person</span> Workplace Safety Training</h3>
           
-          <div class="grid grid-cols-1 md:grid-cols-10 border-2 border-gray-800 rounded shadow-xl">
+          <div class="grid grid-cols-1 md:grid-cols-10 border-2 border-gray-800 rounded shadow-xl" >
             <div class="sm:col-span-4 p-10">
                 <h1 class="text-3xl mb-4">Get In <span class="font-semibold text-[#FFA800]">Touch</span></h1>
                 <p class="leading-8 mb-4 sm:text-lg">Contact us today for expert guidance on enhancing workplace safety standards and ensuring a secure work environment for your team.</p>
@@ -356,22 +356,36 @@
       </div>
       </section>
       
-      <section>
-        <div class="grid grid-cols-12">
-          <div class="text-center col-span-6">
-            <div class="text-5xl">
+      <section class="p-4">
+        <div class="container mx-auto flex flex-col items-center pb-4 mb-10 sm:p-10 sm:px-12">
+
+        <div class="container grid grid-cols-10">
+
+          <div class="text-center mx-auto col-span-4 flex flex-col justify-center">
+            <div class="text-5xl mb-8">
               Hear what our customers have to <span class="font-semibold font-mooli text-[#FFA800]">say</span>
             </div>
-            <p>lorem</p>
-            <div>img</div>
+            
+              <img class="object-scale-down h-[450px]" src="../src/assets/class.png" alt="">         
           </div>
           
-          <div class="text-5xl col-span-6">
-            <div>test1</div>
-            <div>test2</div>
-            <div>test3</div>
+          <div class="col-span-6 flex flex-col justify-center items-center relative">
+            <div class="flex">
+              <img src="../src/assets/svg/quoteDown.svg" alt="" class="align-top">
+              <div class="text-center">
+                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium explicabo recusandae quisquam voluptatibus porro expedita tenetur doloremque placeat! Delectus soluta ratione quia quisquam mollitia aliquam amet similique dicta repudiandae ducimus.</div>
+              </div>
+              <img src="../src/assets/svg/quoteUp.svg" alt="" class="align-bottom">
+            </div>
+            <span>line</span>
+            <div>name</div>
+            <div>company/location</div>
           </div>
+          
+
         </div>  
+
+      </div>
       </section>
     </main>
     <script src="script.js"></script>
