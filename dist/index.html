@@ -24,6 +24,7 @@
   >
     <main class="">
       <section
+        id="h"
         class="bg-center bg-cover bg-no-repeat mb-24"
         style="
           background-image: linear-gradient(
@@ -33,7 +34,10 @@
             url('../src/assets/newyork.jpg');
         "
       >
-        <header class="sm:flex sm:justify-between sm:px-10 sm:py-3 md:px-20">
+        <header
+          id="home"
+          class="sm:flex sm:justify-between sm:px-10 sm:py-3 md:px-20"
+        >
           <div class="flex items-center justify-between px-4 py-2 sm:p-0">
             <div>
               <img
@@ -62,31 +66,32 @@
           </div>
           <div
             id="menu"
-            class="hidden px-4 py-2 pb-3 border border-[#FFA800] sm:border-hidden sm:flex sm:items-center sm:p-0"
+            class="hidden px-4 py-2 pb-3 border border-[#FFA800] sm:border-hidden sm:flex sm:items-center sm:p-0 uppercase tracking-widest font-semibold"
           >
             <a
-              href="#"
-              class="block px-2 text-white font-semibold hover:text-[#FFA800]"
-              >Home</a
-            >
-            <a
-              href="#"
+              href="#about"
               class="block px-2 mt-1 sm:mt-0 sm:ml-2 text-white font-semibold hover:text-[#FFA800]"
               >About</a
             >
             <a
-              href="#"
-              class="block px-2 mt-1 sm:mt-0 sm:ml-2 text-white font-semibold hover:text-[#FFA800]"
-              >Testimonials</a
-            >
-            <a
-              href="#"
+              href="#contact"
               class="block px-2 mt-1 sm:mt-0 sm:ml-2 text-white font-semibold hover:text-[#FFA800]"
               >Consultations</a
             >
+            <a
+              href="#testimonials"
+              class="block px-2 mt-1 sm:mt-0 sm:ml-2 text-white font-semibold hover:text-[#FFA800]"
+              >Testimonials</a
+            >
+          </div>
+          <div class="hidden mt-2 sm:flex items-center gap-4 sm:ml-8 sm:mt-0">
+            <a
+              class="bg-gradient-to-r from-[#FF6600] to-[#FFA800] rounded-md sm:rounded-lg p-2 sm:p-4 text-white sm:font-semibold uppercase sm:tracking-widest hover:scale-110"
+              href="#contact"
+              >Contact Now!</a
+            >
           </div>
         </header>
-
         <div
           class="text-white h-screen flex flex-col items-center justify-center text-center p-4"
         >
@@ -97,7 +102,6 @@
               id="typewriter"
             ></span>
           </h1>
-
           <div class="sm:px-20 sm:mb-8">
             <p class="text-lg mb-4 font-mooli sm:text-2xl">
               Training, Policy Development, Site Safety Management, & much more!
@@ -112,30 +116,32 @@
           <div class="my-8">
             <button class="hover:scale-110">
               <a
-                href="#"
+                href="#contact"
                 class="bg-gradient-to-r from-[#FF6600] to-[#FFA800] rounded-lg p-3 sm:p-4 font-semibold uppercase sm:tracking-widest"
               >
                 Schedule Today
               </a>
             </button>
-            <a
-              href="#"
-              class="hidden sm:inline p-4 font-bold hover:text-[#FFA800]"
-              >Learn More</a
-            >
           </div>
         </div>
       </section>
 
       <section
+        id="about"
         class="text-black container mx-auto flex flex-col items-center justify-center mb-24"
       >
-        <div class="mb-6 sm:mb-2 text-center font-mooli font-semibold">
+        <div
+          class="text-xl mb-6 sm:mb-2 text-center font-mooli font-semibold tracking-wide"
+        >
           Why Choose RAS Safety Consultants Inc
         </div>
         <h1
-          class="p-4 text-center text-3xl tracking-wider sm:text-5xl sm:my-6 font-light"> Providing training where
-          <span class="font-semibold text-[#FFA800]">Safety</span> and <span class="font-semibold text-[#FFA800]">Education</span> is our goal
+          class="p-4 text-center text-3xl tracking-wider sm:text-5xl sm:my-6 font-light"
+        >
+          Providing training where
+          <span class="font-semibold text-[#FFA800]">Safety</span> and
+          <span class="font-semibold text-[#FFA800]">Education</span> is our
+          goal
         </h1>
         <div class="grid gap-8 p-4 sm:grid-cols-3 sm:gap-16">
           <div class="border-b-[1px] rounded shadow-lg hover:shadow-xl">
@@ -153,7 +159,11 @@
                 OSHA 10 & OSHA 30
               </h3>
               <p class="p-2 sm:text-lg">
-                Embark on a transformative learning journey with our OSHA10 & OSHA30 training programs. Designed for individuals and professionals across industries, these courses provide comprehensive insights into Occupational Safety and Health Administration (OSHA) regulations.
+                Embark on a transformative learning journey with our OSHA10 &
+                OSHA30 training programs. Designed for individuals and
+                professionals across industries, these courses provide
+                comprehensive insights into Occupational Safety and Health
+                Administration (OSHA) regulations.
               </p>
             </div>
           </div>
@@ -172,8 +182,11 @@
               >
                 MEWP Lift Training
               </h3>
-              <p class="p-2 sm:text-lg ">
-                Elevate your skills and safety awareness with our MEWP (Mobile Elevated Work Platform) Lift Training. This specialized course equips you with the knowledge and hands-on expertise to operate MEWP lifts confidently and securely. 
+              <p class="p-2 sm:text-lg">
+                Elevate your skills and safety awareness with our MEWP (Mobile
+                Elevated Work Platform) Lift Training. This specialized course
+                equips you with the knowledge and hands-on expertise to operate
+                MEWP lifts confidently and securely.
               </p>
             </div>
           </div>
@@ -193,7 +206,9 @@
                 HAZWOPER Training
               </h3>
               <p class="p-2 sm:text-lg">
-                Training class to gain essential skills and knowledge in handling hazardous materials and emergency response protocols in compliance with New York State regulations. 
+                Training class to gain essential skills and knowledge in
+                handling hazardous materials and emergency response protocols in
+                compliance with New York State regulations.
               </p>
             </div>
           </div>
@@ -213,7 +228,10 @@
                 NYC SST
               </h3>
               <p class="p-2 sm:text-lg">
-                Prepare for construction excellence with our NYC SST (Site Safety Training) program. Dive into comprehensive modules covering vital topics like site safety plans, regulatory compliance, hazard recognition, and communication protocols. 
+                Prepare for construction excellence with our NYC SST (Site
+                Safety Training) program. Dive into comprehensive modules
+                covering vital topics like site safety plans, regulatory
+                compliance, hazard recognition, and communication protocols.
               </p>
             </div>
           </div>
@@ -233,7 +251,10 @@
                 Confined Space Training
               </h3>
               <p class="p-2 sm:text-lg">
-                Unlock the expertise to navigate confined spaces safely and confidently with our comprehensive Confined Space Training. Delve into the intricacies of confined space entry, hazard identification, and proper use of safety equipment.
+                Unlock the expertise to navigate confined spaces safely and
+                confidently with our comprehensive Confined Space Training.
+                Delve into the intricacies of confined space entry, hazard
+                identification, and proper use of safety equipment.
               </p>
             </div>
           </div>
@@ -253,7 +274,10 @@
                 Scaffolding Training
               </h3>
               <p class="p-2 sm:text-lg">
-                Embark on a journey to mastering safe and efficient scaffolding practices with our Scaffolding Training program. Learn the crucial elements of scaffold stability, load capacities, and fall protection to ensure secure working platforms. 
+                Embark on a journey to mastering safe and efficient scaffolding
+                practices with our Scaffolding Training program. Learn the
+                crucial elements of scaffold stability, load capacities, and
+                fall protection to ensure secure working platforms.
               </p>
             </div>
           </div>
@@ -265,111 +289,161 @@
           Fall Protection, Slip & Fall, Sexual Harassment, Machine Guarding,
           Concealed Space, PPE, and Much More!
         </p>
-        <p class="p-4 text-center text-md font-semibold font-mooli sm:px-20">
-          Make your workplace safer - Call or Email us today! 
-          <p class="font-bold">845-891-7591</p>
-          <p class="font-bold" >robert.rassafety@gmail.com</p>
+        <p
+          class="p-4 text-center text-md font-semibold font-mooli sm:px-20 tracking-wide"
+        >
+          Make your workplace safer - Call or Email us today!
         </p>
+        <p class="font-bold tracking-wide">845-891-7591</p>
+        <p class="font-bold tracking-wide">robert.rassafety@gmail.com</p>
       </section>
 
-      <section class="bg-gray-900 text-white p-4 mb-24">
-        <div class="container mx-auto flex flex-col items-center pb-4 mb-10 sm:p-10 sm:px-12">
-        <div>
-          <h3 class="mt-5 text-2xl font-semibold text-center mb-8 sm:text-5xl sm:mt-0 tracking-wide"><span class="font-semibold text-[#FFA800]">Online</span> and <span class="font-semibold text-[#FFA800]">In-person</span> Workplace Safety Training</h3>
-          
-          <div class="grid grid-cols-1 md:grid-cols-10 border-2 border-gray-800 rounded shadow-xl" >
+      <section id="contact" class="bg-gray-900 text-white p-4 mb-24">
+        <div
+          class="container mx-auto flex flex-col items-center pb-4 mb-10 sm:p-10 sm:px-12"
+        >
+          <h3
+            class="mt-5 text-2xl font-semibold text-center mb-8 sm:text-5xl sm:mt-0 tracking-wide"
+          >
+            <span class="font-semibold text-[#FFA800]">Online</span> and
+            <span class="font-semibold text-[#FFA800]">In-person</span>
+            Workplace Safety Training
+          </h3>
+
+          <div
+            class="grid grid-cols-1 md:grid-cols-10 border-2 border-gray-800 rounded shadow-xl"
+          >
             <div class="sm:col-span-4 p-10">
-                <h1 class="text-3xl mb-4">Get In <span class="font-semibold text-[#FFA800]">Touch</span></h1>
-                <p class="leading-8 mb-4 sm:text-lg">Contact us today for expert guidance on enhancing workplace safety standards and ensuring a secure work environment for your team.</p>
-                <ul class="mb-4 sm:text-lg">
-                  <li>OSHA training</li>
-                  <li>NYCDOB SST training</li>
-                  <li>Workplace Safety Consulting and Training</li>
-                </ul>
-                <div class="sm:text-lg">
-                  <div class="flex mb-4">
-                    <img class="mr-2" src="../src/assets/svg/phone.svg" alt="">
-                    <div>
-                      <div>845-891-7591</div>
-                      <div>845-345-9331 </div>
-                    </div>
+              <h1 class="text-3xl mb-4">
+                Get In <span class="font-semibold text-[#FFA800]">Touch</span>
+              </h1>
+              <p class="leading-8 mb-4 sm:text-lg">
+                Contact us today for expert guidance on enhancing workplace
+                safety standards and ensuring a secure work environment for your
+                team.
+              </p>
+              <ul class="mb-4 sm:text-lg">
+                <li>OSHA training</li>
+                <li>NYCDOB SST training</li>
+                <li>Workplace Safety Consulting and Training</li>
+              </ul>
+              <div class="sm:text-lg">
+                <div class="flex mb-4">
+                  <img class="mr-2" src="../src/assets/svg/phone.svg" alt="" />
+                  <div>
+                    <div>845-891-7591</div>
+                    <div>845-345-9331</div>
                   </div>
-                  <div class="flex">
-                    <img class="mr-2" src="../src/assets/svg/email.svg" alt="">
-                    <div>
-                      <div>robert.rassafety@gmail.com</div>
-                    </div>
+                </div>
+                <div class="flex">
+                  <img class="mr-2" src="../src/assets/svg/email.svg" alt="" />
+                  <div>
+                    <div>robert.rassafety@gmail.com</div>
                   </div>
-                </div>        
+                </div>
+              </div>
             </div>
             <form class="sm:col-span-6 p-10">
               <div class="flex flex-wrap -mx-3 mb-6">
-                  <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                      <label class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2"
-                          for="first-name">
-                          First Name
-                      </label>
-                      <input
-                          class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 pl-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                          id="first-name" type="text" placeholder="John">
-                  </div>
-                  <div class="w-full md:w-1/2 px-3">
-                      <label class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2"
-                          for="last-name">
-                          Last Name
-                      </label>
-                      <input
-                          class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 pl-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                          id="last-name" type="text" placeholder="Smith">
-                  </div>
+                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                  <label
+                    class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2"
+                    for="first-name"
+                  >
+                    First Name
+                  </label>
+                  <input
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 pl-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                    id="first-name"
+                    type="text"
+                    placeholder="John"
+                  />
+                </div>
+                <div class="w-full md:w-1/2 px-3">
+                  <label
+                    class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2"
+                    for="last-name"
+                  >
+                    Last Name
+                  </label>
+                  <input
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 pl-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    id="last-name"
+                    type="text"
+                    placeholder="Smith"
+                  />
+                </div>
               </div>
               <div class="flex flex-wrap -mx-3 mb-6">
-                  <div class="w-full px-3">
-                      <label class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2"
-                          for="email">
-                          Email Address
-                      </label>
-                      <input
-                          class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 pl-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                          id="email" type="email" placeholder="JohnSmith@gmail.com">
-                  </div>
+                <div class="w-full px-3">
+                  <label
+                    class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2"
+                    for="email"
+                  >
+                    Email Address
+                  </label>
+                  <input
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 pl-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    id="email"
+                    type="email"
+                    placeholder="JohnSmith@gmail.com"
+                  />
+                </div>
               </div>
               <div class="flex flex-wrap -mx-3 mb-4">
-                  <div class="w-full px-3">
-                      <label class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2"
-                          for="grid-password">
-                          Your Message
-                      </label>
-                      <textarea rows="8"
-                          class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 pl-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
-                  </div>
-                  <div class="flex px-3">                   
-                      <button
-                          class=" bg-gradient-to-r from-[#FF6600] to-[#FFA800] rounded-lg p-3 sm:p-4 font-semibold uppercase sm:tracking-widest"
-                          type="submit">
-                          Send Message
-                      </button>
-                  </div>
+                <div class="w-full px-3">
+                  <label
+                    class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2"
+                    for="grid-password"
+                  >
+                    Your Message
+                  </label>
+                  <textarea
+                    rows="8"
+                    class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 pl-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                  ></textarea>
+                </div>
+                <div class="flex px-3">
+                  <button
+                    class="bg-gradient-to-r from-[#FF6600] to-[#FFA800] rounded-lg p-3 sm:p-4 font-semibold uppercase sm:tracking-widest"
+                    type="submit"
+                  >
+                    Send Message
+                  </button>
+                </div>
               </div>
-          </form>
-          </div>   
-      </div>
+            </form>
+          </div>
+        </div>
       </section>
-      
-      <section class="p-4 pt-0">
-        <div class="container mx-auto flex flex-col items-center pb-4 mb-10 sm:p-10 sm:px-12">
-        <div>
+
+      <section id="testimonials" class="p-4 pt-0">
+        <div
+          class="container mx-auto flex flex-col items-center pb-4 mb-10 sm:p-10 sm:px-12"
+        >
           <div class="mx-auto flex flex-col justify-center items-center">
-            <div class="text-3xl mb-2 sm:text-5xl sm:mb-4 tracking-wide font-semibold">
+            <div
+              class="text-3xl mb-2 sm:text-5xl sm:mb-4 tracking-wide font-semibold"
+            >
               Hear From Our Clients
             </div>
-            <p class="text-center mb-4 sm:mb-8 text-xl">Over <span class="px-1 text-white font-bold bg-[#FFA800] rounded ">500</span> classes trained making workplaces safer</p>     
+            <p class="text-center mb-4 sm:mb-8 text-xl">
+              Over
+              <span class="px-1 text-white font-bold bg-[#FFA800] rounded"
+                >500</span
+              >
+              classes trained making workplaces safer
+            </p>
           </div>
-          <div>
           <div class="grid gap-6 grid-cols-1 sm:grid-cols-3">
-
-            <div class="flex flex-col justify-center items-center p-6  rounded-xl shadow-lg ">
-              <img src="../src/assets/svg/quoteDown.svg" alt="" class=" h-6 mb-4 sm:h-12">
+            <div
+              class="flex flex-col justify-center items-center p-6 rounded-xl shadow-lg"
+            >
+              <img
+                src="../src/assets/svg/quoteDown.svg"
+                alt=""
+                class="h-6 mb-4 sm:h-12"
+              />
               <div class="mb-4 text-lg text-center sm:text-2xl font-mooli">
                 I am so happy to have RAS Safety as part of my safety team.
               </div>
@@ -377,53 +451,88 @@
               <div class="text-sm sm:text-lg">Queens NY</div>
             </div>
 
-            <div class="flex flex-col justify-center items-center p-6  rounded-xl shadow-lg ">
-              <img src="../src/assets/svg/quoteDown.svg" alt="" class="h-6 mb-4 sm:h-12">
+            <div
+              class="flex flex-col justify-center items-center p-6 rounded-xl shadow-lg"
+            >
+              <img
+                src="../src/assets/svg/quoteDown.svg"
+                alt=""
+                class="h-6 mb-4 sm:h-12"
+              />
               <div class="text-lg text-center sm:text-2xl font-mooli mb-4">
-                I always though Osha was boring, but this class was fun and entertaining
+                I always though Osha was boring, but this class was fun and
+                entertaining
               </div>
-              <div class="text-md sm:text-xl"> Paul Kolkorst</div>
+              <div class="text-md sm:text-xl">Paul Kolkorst</div>
               <div class="text-sm sm:text-lg">Albany NY</div>
             </div>
 
-            <div class="flex flex-col justify-center items-center p-6  rounded-xl shadow-lg ">
-              <img src="../src/assets/svg/quoteDown.svg" alt="" class=" h-6 mb-4 sm:h-12">
+            <div
+              class="flex flex-col justify-center items-center p-6 rounded-xl shadow-lg"
+            >
+              <img
+                src="../src/assets/svg/quoteDown.svg"
+                alt=""
+                class="h-6 mb-4 sm:h-12"
+              />
               <div class="text-lg text-center sm:text-2xl font-mooli mb-4">
-                Safety management is very helpful in retraining our workers to be safer on the job
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium explicabo
+              </div>
+              <div class="text-md sm:text-xl">Jim Jones</div>
+              <div class="text-sm sm:text-lg">Elizabethtown New Jersey</div>
+            </div>
+
+            <div
+              class="flex flex-col justify-center items-center p-6 rounded-xl shadow-lg"
+            >
+              <img
+                src="../src/assets/svg/quoteDown.svg"
+                alt=""
+                class="h-6 mb-4 sm:h-12"
+              />
+              <div class="text-lg text-center sm:text-2xl font-mooli mb-4">
+                Safety management is very helpful in retraining our workers to
+                be safer on the job
               </div>
               <div class="text-md sm:text-xl">Brian Carroll</div>
               <div class="text-sm sm:text-lg">Hyde Park NY</div>
             </div>
 
-            <div class="flex flex-col justify-center items-center p-6  rounded-xl shadow-lg ">
-              <img src="../src/assets/svg/quoteDown.svg" alt="" class=" h-6 mb-4 sm:h-12">
+            <div
+              class="flex flex-col justify-center items-center p-6 rounded-xl shadow-lg"
+            >
+              <img
+                src="../src/assets/svg/quoteDown.svg"
+                alt=""
+                class="h-6 mb-4 sm:h-12"
+              />
               <div class="text-lg text-center sm:text-2xl font-mooli mb-4">
-                I love the PowerPoint presentations of actual workplace photos. It certainly helps to learn, since I'm a visual learner
+                I love the PowerPoint presentations of actual workplace photos.
+                It certainly helps to learn, since I'm a visual learner
               </div>
               <div class="text-md sm:text-xl">Mario Cuenca</div>
               <div class="text-sm sm:text-lg">Queens NY</div>
             </div>
 
-            <div class="flex flex-col justify-center items-center p-6 rounded-xl shadow-lg ">
-              <img src="../src/assets/svg/quoteDown.svg" alt="" class=" h-6 mb-4 sm:h-12">
+            <div
+              class="flex flex-col justify-center items-center p-6 rounded-xl shadow-lg"
+            >
+              <img
+                src="../src/assets/svg/quoteDown.svg"
+                alt=""
+                class="h-6 mb-4 sm:h-12"
+              />
               <div class="text-lg text-center sm:text-2xl font-mooli mb-4">
-                RAS Safety conducts classes that are entertaining, educational, and fun. They have helped improve our safety culture creating a safer work environment
+                RAS Safety conducts classes that are entertaining, educational,
+                and fun. They have helped improve our safety culture creating a
+                safer work environment
               </div>
               <div class="text-md sm:text-xl">James Lavalle</div>
               <div class="text-sm sm:text-lg">Elizabethtown NJ</div>
             </div>
-
-            <div class="flex flex-col justify-center items-center p-6  rounded-xl shadow-lg ">
-              <img src="../src/assets/svg/quoteDown.svg" alt="" class="h-6 mb-4 sm:h-12">
-              <div class="text-lg text-center sm:text-2xl font-mooli mb-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium explicabo
-              </div>
-              <div class="text-md sm:text-xl">Jim Jones</div>
-              <div class="text-sm sm:text-lg">MIC Elizabethtown New Jersey</div>
-            </div>   
+          </div>
         </div>
-        </div>
-      </div>
       </section>
     </main>
     <script src="script.js"></script>
