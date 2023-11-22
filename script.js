@@ -49,3 +49,10 @@ var menu = document.getElementById('menu');
 burger.addEventListener('click', () => {
   menu.classList.toggle('hidden');
 });
+
+//clear form on reload
+window.onbeforeunload = () => {
+  for (const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+};
